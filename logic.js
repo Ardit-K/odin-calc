@@ -1,6 +1,8 @@
 let num1;
 let num2;
 let op;
+let flagOne = true;
+
 
 const display = document.querySelector('.calcs');
 const add = (n1, n2) => {
@@ -31,4 +33,9 @@ const appendVal = (val) => {
 }
 const clearDisplay = () => {
     display.textContent = '';
+}
+
+const calculate = () => {
+    let res = operate(op, num1, num2);
+    display.textContent = eval(display.textContent);
 }
