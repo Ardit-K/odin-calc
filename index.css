@@ -1,9 +1,10 @@
 .container{
     display: block;
+    justify-self: center;
     width: 500px;
     height: 500px;
     box-sizing: border-box;
-    border: 1px solid white;
+    border: 1px solid grey;
 }
 .row{
     display: flex;
@@ -26,6 +27,7 @@
     font-size:xx-large;
     background-color: green;
     padding-top: 20px;
+    border-radius: 10px;
 }
 .calcs{
     flex: 1;
